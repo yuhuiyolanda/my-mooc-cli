@@ -1,0 +1,29 @@
+{
+  "name": "@my.imooc.com/utils",
+  "version": "0.0.0",
+  "description": "cli-imooc utils",
+  "author": "Yolanda <1176794277@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "inquirer": "^9.1.4",
+    "npmlog": "^7.0.1",
+    "url-join": "^5.0.0"
+  },
+  "type": "module"
+}
